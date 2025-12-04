@@ -32,21 +32,21 @@ ___
 ---
 🔹 Incident Investigation – Windows Log Analysis (Splunk)
 
-➡️ Full investigation of malicious PowerShell activity
-➡️ Timeline, MITRE mapping, detection logic
-➡️ Executive summary + remediation plan
+• Full investigation of malicious PowerShell activity<br>
+• Timeline, MITRE mapping, detection logic<br>
+• Executive summary + remediation plan<br>
 [Repository coming soon]
 
 🔹 macOS Security Audit & Hardening Plan
 
-➡️ Security assessment of macOS system using KnockKnock, OSQuery & auditd
-➡️ Persistence detection & hardening recommendations
+• Security assessment of macOS system using KnockKnock, OSQuery & auditd<br>
+• Persistence detection & hardening recommendations<br>
 [Repository coming soon]
 
 🔹 AWS Cloud Security Misconfiguration Lab
 
-➡️ S3 misconfiguration → detection → remediation
-➡️ GuardDuty alerts + IAM policy fixes
+• S3 misconfiguration → detection → remediation<br>
+• GuardDuty alerts + IAM policy fixes<br>
 [Repository coming soon]
 ___
 
