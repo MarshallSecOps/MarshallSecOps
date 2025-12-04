@@ -20,8 +20,8 @@ ___
 
 🛠️ Technical Skills
 ---
-Security Tools:<br> • Splunk • Sysmon • Wireshark • Visual Studio Code<br> 
-Digital Forensics:<br> • Event Log Analysis • File System Triage • Autopsy • Volatility • FTKImager • Kape<br>
+Security Tools:<br> 	• Splunk • Sysmon • Wireshark • Visual Studio Code<br> 
+Digital Forensics:<br> 	• Event Log Analysis • File System Triage • Autopsy • Volatility • FTKImager • Kape<br>
 Blue Team:<br> • Incident Response • MITRE ATT&CK mapping • Detection logic<br>
 Vulnerability:<br> • OWASP ZAP • Security misconfig analysis
 Cloud (Learning): IAM basics • Shared Responsibility Model
