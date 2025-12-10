@@ -5,7 +5,8 @@ Cybersecurity Analyst • Security+ • Network+ • Blue Team Level 1<br>
 Focused on SOC analysis, incident response, and vulnerability management.
 I’m transitioning into cybersecurity with a strong technical foundation and a growing portfolio of hands-on blue-team projects. I enjoy working with SIEM tools, log analysis, endpoint forensics, and cloud security fundamentals.
 
-I’m a fast learner and enjoy collaborating with others to analyse issues, strengthen processes, and enhance security outcomes. I also keep up with the latest threat trends through daily podcasts and industry resources.___
+I’m a fast learner and enjoy collaborating with others to analyse issues, strengthen processes, and enhance security outcomes. I also keep up with the latest threat trends through daily podcasts and industry resources.
+___
 
 🔐 Current Focus
 ---
