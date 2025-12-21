@@ -2,53 +2,50 @@
 
 Cybersecurity Analyst • Security+ • Network+ • Blue Team Level 1<br>
 
-Focused on SOC analysis, incident response, and vulnerability management.
-I’m transitioning into cybersecurity with a strong technical foundation and a growing portfolio of hands-on blue-team projects. I enjoy working with SIEM tools, log analysis, endpoint forensics, and cloud security fundamentals.
+Cybersecurity Analyst focused on SOC operations, threat detection, and incident response. I build hands-on projects that demonstrate real-world security analysis capabilities including SIEM log analysis, threat hunting, endpoint forensics, and detection engineering.
 
-I’m a fast learner and enjoy collaborating with others to analyse issues, strengthen processes, and enhance security outcomes. I also keep up with the latest threat trends through daily podcasts and industry resources.
+I’m a fast learner who stays current with emerging threats through daily industry research and practical lab work, and I enjoy collaborating with others to analyse issues, strengthen processes, and enhance security outcomes. I approach security challenges methodically and document my process thoroughly. 
 ___
 
 🔐 Current Focus
 ---
-This is what I'm currently working on right now:<br>
-	•	Blue Team Level 2 (advcanced Security Operations Treaining, SIEM analysis, incident investigation, DFIR) 
-  •	AWS cloud security Associate, then onto AWS Security Specialty Certification (target June 2026 completion alongside working FT)
-  •	Looking to also complete the AZ-500 in next 3 months
-	Building more projects in:
-	•	Advanced SIEM log analysis & threat detection & use of AI tools
-	•	Vulnerability analysis & hardening techniques wih a focus on utilising AI to leverage up scope and efficiency 
+Actively developing:
+- Advanced SIEM log analysis & threat detection projects
+- Detection engineering with AI-assisted analysis
+- Vulnerability analysis & hardening techniques
+- AWS cloud security (pursuing Security Specialty Certification)
+- Blue Team Level 2 certification (advanced SIEM, DFIR, Security Operations)
 ___
 
 🛠️ Technical Skills
 ---
-Security Tools:<br> 	• Splunk • Sysmon • Wireshark<br> 
-Digital Forensics:<br> 	• Event Log Analysis • File System Triage • Autopsy • Volatility • FTKImager • Kape<br>
-Blue Team:<br> • Incident Response • MITRE ATT&CK mapping • Detection logic<br>
-Vulnerability:<br> • OWASP ZAP • Security misconfig analysis
-Cloud (Learning): IAM basics • Shared Responsibility Model
-OS: Windows • macOS • Linux (Basic CLI / Bash)
+**SIEM & Detection:**  
+Splunk • Sysmon • Log Analysis • Detection Logic • MITRE ATT&CK Mapping
+
+**Incident Response & Forensics:**  
+Event Log Analysis • File System Triage • Autopsy • Volatility • FTKImager • Kape
+
+**Security Tools:**  
+Wireshark • CyberChef • VirusTotal • OSINT Tools
+
+**Vulnerability & Hardening:**  
+OWASP ZAP • Security Misconfiguration Analysis
+
+**Cloud Security (Learning):**  
+AWS IAM • Shared Responsibility Model
+
+**Operating Systems:**  
+Windows • macOS • Linux (Basic CLI/Bash)
 ___
 
 📁 Featured Projects
 ---
-🔹 Incident Investigation – Windows Log Analysis (Splunk)
+🔹 Incident Investigation apt29 – Windows Log Analysis (Splunk)
 
-• Full investigation of malicious PowerShell activity<br>
-• Timeline, MITRE mapping, detection logic<br>
-• Executive summary + remediation plan<br>
-[Repository coming soon]
-
-🔹 macOS Security Audit & Hardening Plan
-
-• Security assessment of macOS system using KnockKnock, OSQuery & auditd<br>
-• Persistence detection & hardening recommendations<br>
-[Repository coming soon]
-
-🔹 AWS Cloud Security Misconfiguration Lab
-
-• S3 misconfiguration → detection → remediation<br>
-• GuardDuty alerts + IAM policy fixes<br>
-[Repository coming soon]
+- Complex attack investigation: encoded PowerShell payloads, LSASS credential dumping, WinRM lateral movement, and persistence mechanisms
+- Delivered evidence-backed attack timeline, MITRE ATT&CK mapping, and DFIR-style incident report
+- **Key Takeaway:** Demonstrated ability to reconstruct complex attack chains from raw Windows event logs
+(https://github.com/MarshallSecOps/apt29-splunk-investigation/tree/main)
 ___
 
 📬 Contact
