@@ -1,55 +1,108 @@
-👋 Hi, I’m Marshall
+## 👋 Hi, I’m Marshall
 
-Cybersecurity Analyst • Security+ • Network+ • Blue Team Level 1<br>
+**Cybersecurity Analyst** · Security+ · Network+ · Blue Team Level 1  
 
-Cybersecurity Analyst focused on SOC operations, threat detection, and incident response. I build hands-on projects that demonstrate real-world security analysis capabilities including SIEM log analysis, threat hunting, endpoint forensics, and detection engineering.
+Cybersecurity analyst focused on **SOC operations, threat detection, and incident response**. I build hands-on projects that demonstrate real-world security analysis capabilities including **SIEM log analysis, alert triage, threat hunting, endpoint forensics, and detection engineering**.
 
-I’m a fast learner who stays current with emerging threats through daily industry research and practical lab work, and I enjoy collaborating with others to analyse issues, strengthen processes, and enhance security outcomes. I approach security challenges methodically and document my process thoroughly. 
-___
+I approach security problems methodically, document my investigations clearly, and focus on producing actionable outcomes that reduce risk and operational noise.
 
-🔐 Current Focus
 ---
-Actively developing:
-- Advanced SIEM log analysis & threat detection projects
+
+## 🔍 Current Focus
+
+Actively developing skills and projects in:
+
+- Advanced SIEM log analysis & threat detection
+- SOC alert triage, escalation workflows, and playbook development
 - Detection engineering with AI-assisted analysis
-- Vulnerability analysis & hardening techniques
-- AWS cloud security (pursuing Security Specialty Certification)
-- Blue Team Level 2 certification (advanced SIEM, DFIR, Security Operations)
-___
+- DFIR fundamentals and adversary behavior analysis
+- AWS cloud security (pursuing Security Specialty)
+- Blue Team Level 2 (advanced SIEM, DFIR, Security Operations)
 
-🛠️ Technical Skills
 ---
-**SIEM & Detection:**  
-Splunk • Sysmon • Log Analysis • Detection Logic • MITRE ATT&CK Mapping
 
-**Incident Response & Forensics:**  
-Event Log Analysis • File System Triage • Autopsy • Volatility • FTKImager • Kape
+## 🛠️ Technical Skills
 
-**Security Tools:**  
-Wireshark • CyberChef • VirusTotal • OSINT Tools
+### SIEM & Detection
+Splunk · Sysmon · Log Analysis · Detection Logic · MITRE ATT&CK Mapping
 
-**Vulnerability & Hardening:**  
-OWASP ZAP • Security Misconfiguration Analysis
+### Incident Response & Forensics
+Event Log Analysis · Endpoint Triage · Autopsy · Volatility · FTK Imager · KAPE
 
-**Cloud Security (Learning):**  
-AWS IAM • Shared Responsibility Model
+### Security Tooling
+Wireshark · CyberChef · VirusTotal · OSINT Tools
 
-**Operating Systems:**  
-Windows • macOS • Linux (Basic CLI/Bash)
-___
+### Vulnerability & Hardening
+OWASP ZAP · Security Misconfiguration Analysis
 
-📁 Featured Projects
+### Cloud Security (Learning)
+AWS IAM · Shared Responsibility Model
+
+### Operating Systems
+Windows · macOS · Linux (Basic CLI/Bash)
+
 ---
-🔹 Incident Investigation apt29 – Windows Log Analysis (Splunk)
 
-- Complex attack investigation: encoded PowerShell payloads, LSASS credential dumping, WinRM lateral movement, and persistence mechanisms
-- Delivered evidence-backed attack timeline, MITRE ATT&CK mapping, and DFIR-style incident report
-- **Key Takeaway:** Demonstrated ability to reconstruct complex attack chains from raw Windows event logs
-(https://github.com/MarshallSecOps/apt29-splunk-investigation/tree/main)
-___
+## 📁 Featured Projects
 
-📬 Contact
+### 🔹 SOC Alert Triage & Escalation Workflow (Splunk)
+**SOC Tier 1 / Tier 2 Operational Project**
+
+A structured SOC workflow project demonstrating alert triage, investigation, escalation decision-making, and playbook development using realistic Splunk-based scenarios.
+
+**What this project demonstrates:**
+- True positive vs false positive classification
+- Alert investigation methodology and consistency
+- Escalation criteria with clear Tier 2 handoff context
+- SPL investigation queries and alert tuning considerations
+- SOC-ready documentation and operational clarity
+
+**Alert Scenarios Covered:**
+- Brute force authentication attacks  
+- Suspicious PowerShell execution  
+- Web application exploitation attempts  
+- Data exfiltration via cloud services  
+
+👉 **Repository:**  
+https://github.com/MarshallSecOps/SOC-Alert-Triage-Project
+
+───────────────────────────────────────────────────────────────
+
+### 🔹 APT29 DFIR Investigation – Windows Log Analysis (Splunk)
+**Threat Hunting & DFIR Project**
+
+An end-to-end investigation of the APT29 evaluation dataset using Splunk, focused on reconstructing a real-world attack chain from raw Windows telemetry.
+
+**What this project demonstrates:**
+- Obfuscated PowerShell payload decoding
+- LSASS credential dumping investigation (Mimikatz-style)
+- WinRM/WMI lateral movement detection
+- Persistence mechanism identification
+- Evidence-backed attack timeline reconstruction
+- MITRE ATT&CK mapping and DFIR-style reporting
+
+**Key takeaway:**  
+Demonstrated ability to reconstruct complex adversary behavior across multiple hosts and attack stages using SIEM telemetry.
+
+👉 **Repository:**  
+https://github.com/MarshallSecOps/apt29-splunk-investigation
+
 ---
-📍 Gold Coast, Australia
-Open to remote and hybrid cybersecurity roles
-Reach me on LinkedIn: [link here]
+
+## 🎯 Career Focus
+
+Seeking opportunities in:
+- SOC Tier 1 / Tier 2
+- Security Operations
+- Detection & Response
+- Blue Team / DFIR-focused roles
+
+
+---
+
+## 📬 Contact
+
+📍 Gold Coast, Australia<br>
+
+  Open to remote and hybrid cybersecurity roles<br>
+  Reach me here on Github
