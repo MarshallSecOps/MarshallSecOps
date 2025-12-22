@@ -66,7 +66,7 @@ A structured SOC workflow project demonstrating alert triage, investigation, esc
 👉 **Repository:**  
 https://github.com/MarshallSecOps/SOC-Alert-Triage-Project
 
-───────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────
 
 ### 🔹 APT29 DFIR Investigation – Windows Log Analysis (Splunk)
 **Threat Hunting & DFIR Project**
