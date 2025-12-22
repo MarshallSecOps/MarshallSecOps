@@ -85,7 +85,7 @@ An end-to-end investigation of the APT29 evaluation dataset using Splunk, focuse
 Demonstrated ability to reconstruct complex adversary behavior across multiple hosts and attack stages using SIEM telemetry.
 
 👉 **Repository:**  
-https://github.com/MarshallSecOps/apt29-splunk-investigation
+https://github.com/MarshallSecOps/apt29-DFIR-Investigation
 
 ---
 
