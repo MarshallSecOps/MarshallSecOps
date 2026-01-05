@@ -1,152 +1,129 @@
-# SOC Detection Engineering Portfolio
+## 👋 Hi, I'm Marshall
+**Cybersecurity Analyst** · Security+ · Network+ · Blue Team Level 1  
+Cybersecurity analyst focused on **SOC operations, threat detection, and incident response**. I build hands-on projects that demonstrate real-world security analysis capabilities including **SIEM log analysis, alert triage, threat hunting, endpoint forensics, and detection engineering**.
 
-## Overview
-
-Production-ready detection improvements that reduce alert fatigue while maintaining 100% threat coverage. Each project demonstrates job-ready SOC capabilities: systematic tuning methodology, business justification, and empirical validation against real attacks.
-
----
-
-## Portfolio Impact Summary
-
-| Metric | Results |
-|--------|---------|
-| **Alert Reduction** | 89.7% (2,950 → 305 alerts/day) |
-| **False Positive Improvement** | 74.1 percentage points (89.7% → 15.6%) |
-| **Attack Detection** | 100% (160/160 confirmed attacks detected) |
-| **Analyst Time Saved** | 62,963 hours/year (30.3 FTE) |
-| **Annual Cost Savings** | **$2,890,218** |
-| **First-Year ROI** | **11,247%** |
+I approach security problems methodically, document my investigations clearly, and focus on producing actionable outcomes that reduce risk and operational noise.
 
 ---
 
-## Projects
-
-### [Alert #1: PowerShell Execution Detection](./01_powershell_execution/)
-
-**Problem:** 800 alerts/day, 95% false positive rate from legitimate automation (SCCM, Group Policy, Windows Updates)
-
-**Solution:** 3-layer tuning with parent process whitelisting, suspicious indicator detection (encoded commands, hidden windows, Office apps spawning PowerShell), and risk scoring
-
-**Results:**
-- 93.75% alert reduction (800 → 50/day)
-- 100% attack detection (32/32 malware infections)
-- $524,518 annual savings
-- 12,805% ROI
-
-**Key Innovation:** Parent process analysis combined with encoding detection distinguishes legitimate automation from malicious execution
+## 🔍 Current Focus
+Actively developing skills and projects in:
+- Detection engineering and alert tuning methodology
+- Advanced SIEM log analysis & threat detection
+- SOC alert triage, escalation workflows, and playbook development
+- DFIR fundamentals and adversary behavior analysis
+- AWS cloud security (pursuing Security Specialty)
+- Blue Team Level 2 (advanced SIEM, DFIR, Security Operations)
 
 ---
 
-### [Alert #2: Failed Login Attempts / Brute Force Detection](./02_failed_login_attempts/)
+## 🛠️ Technical Skills
+### SIEM & Detection
+Splunk · Sysmon · Log Analysis · Detection Logic · MITRE ATT&CK Mapping
 
-**Problem:** 600 alerts/day, 89% false positive rate from forgotten passwords, mobile credential caching, and VPN issues
+### Incident Response & Forensics
+Event Log Analysis · Endpoint Triage · Autopsy · Volatility · FTK Imager · KAPE
 
-**Solution:** 5-layer tuning with success correlation methodology (joining failed + successful login events), geographic context, user behavior baselines, and risk scoring
+### Security Tooling
+Wireshark · CyberChef · VirusTotal · OSINT Tools
 
-**Results:**
-- 85.8% alert reduction (600 → 85/day)
-- 100% attack detection (43/43 brute force attacks)
-- $749,300 annual savings
-- 14,986% ROI
+### Vulnerability & Hardening
+OWASP ZAP · Security Misconfiguration Analysis
 
-**Key Innovation:** Success correlation (Event ID 4625 + 4624) differentiates actual brute force from users forgetting passwords - eliminates 58% of FPs alone
+### Cloud Security (Learning)
+AWS IAM · Shared Responsibility Model
 
----
-
-### [Alert #3: Unusual Network Connections Detection](./03_unusual_network_connections/)
-
-**Problem:** 800 alerts/day, 89% false positive rate from cloud services (Office 365, AWS, CDNs, SaaS) in modern environments
-
-**Solution:** 5-layer tuning with comprehensive cloud whitelisting (150+ services), behavioral beaconing analysis via standard deviation, risk scoring, user context enrichment, and threshold filtering
-
-**Results:**
-- 85% alert reduction (800 → 120/day)
-- 100% attack detection (58/58 C2 and exfiltration events)
-- $892,400 annual savings
-- 12,059% ROI
-
-**Key Innovation:** Standard deviation of connection intervals discriminates C2 beaconing (low variance) from legitimate cloud usage (high variance)
+### Operating Systems
+Windows · macOS · Linux (Basic CLI/Bash)
 
 ---
 
-### [Alert #4: Data Exfiltration Detection](./04_data_exfiltration/)
+## 📁 Featured Projects
 
-**Problem:** 750 alerts/day, 91% false positive rate - cloud storage exfiltration looks identical to legitimate business usage
+### 🔹 SOC Detection Engineering Portfolio – Alert Fatigue Reduction
+**Detection Engineering & SOC Optimization Project**
 
-**Solution:** 7-layer tuning with DLP integration for data classification, context-aware cloud whitelisting, user behavior baselines, destination risk assessment, temporal analysis, and department context
+A comprehensive portfolio demonstrating production-ready detection improvements across 4 high-volume SOC alerts. Each project shows systematic tuning methodology that reduces false positives while maintaining 100% attack detection coverage.
 
-**Results:**
-- 93.3% alert reduction (750 → 50/day)
-- 100% attack detection (27/27 exfiltration events)
-- $724,000 annual savings
-- 5,546% ROI
+**What this project demonstrates:**
+- Multi-layer detection tuning methodology (whitelisting, behavioral analysis, risk scoring)
+- Empirical validation against real attack data (160 confirmed attacks tested)
+- Business justification with ROI calculations ($2.89M annual savings)
+- Complete SOC documentation (SPL queries, investigation playbooks, escalation criteria)
+- Statistical analysis and behavioral detection techniques
 
-**Key Innovation:** DLP integration for content awareness - distinguishing marketing videos (PUBLIC) from customer databases (PII) is critical when legitimate and malicious uploads use identical protocols and destinations
+**Projects Completed:**
+- **PowerShell Execution Detection** – 93.75% alert reduction, parent process analysis
+- **Failed Login / Brute Force Detection** – 85.8% alert reduction, success correlation methodology
+- **Unusual Network Connections** – 85% alert reduction, beaconing detection via standard deviation
+- **Data Exfiltration Detection** – 93.3% alert reduction, DLP integration for data classification
+
+**Combined Impact:**  
+89.7% alert reduction (2,950 → 305 alerts/day) · 30.3 FTE freed · 100% true positive retention
+
+**Key takeaway:**  
+Demonstrated ability to transform noisy, high-volume detections into operational, high-confidence alerts suitable for enterprise SOC deployment with empirical validation and business impact metrics.
+
+👉 **Repository:**  
+https://github.com/MarshallSecOps/SOC-Detection-Engineering-Portfolio
+
+────────────────────────────────────────────────────────────
+
+### 🔹 SOC Alert Triage & Escalation Workflow (Splunk)
+**SOC Tier 1 / Tier 2 Operational Project**
+
+A structured SOC workflow project demonstrating alert triage, investigation, escalation decision-making, and playbook development using realistic Splunk-based scenarios.
+
+**What this project demonstrates:**
+- True positive vs false positive classification
+- Alert investigation methodology and consistency
+- Escalation criteria with clear Tier 2 handoff context
+- SPL investigation queries and alert tuning considerations
+- SOC-ready documentation and operational clarity
+
+**Alert Scenarios Covered:**
+- Brute force authentication attacks  
+- Suspicious PowerShell execution  
+- Web application exploitation attempts  
+- Data exfiltration via cloud services  
+
+👉 **Repository:**  
+https://github.com/MarshallSecOps/SOC-Alert-Triage-Project
+
+────────────────────────────────────────────────────────────
+
+### 🔹 APT29 DFIR Investigation – Windows Log Analysis (Splunk)
+**Threat Hunting & DFIR Project**
+
+An end-to-end investigation of the APT29 evaluation dataset using Splunk, focused on reconstructing a real-world attack chain from raw Windows telemetry.
+
+**What this project demonstrates:**
+- Obfuscated PowerShell payload decoding
+- LSASS credential dumping investigation (Mimikatz-style)
+- WinRM/WMI lateral movement detection
+- Persistence mechanism identification
+- Evidence-backed attack timeline reconstruction
+- MITRE ATT&CK mapping and DFIR-style reporting
+
+**Key takeaway:**  
+Demonstrated ability to reconstruct complex adversary behavior across multiple hosts and attack stages using SIEM telemetry.
+
+👉 **Repository:**  
+https://github.com/MarshallSecOps/apt29-DFIR-Investigation
 
 ---
 
-## Methodology
-
-Each detection follows a systematic approach:
-
-1. **Baseline Analysis** - Measure current FP rate and business impact
-2. **Threat Modeling** - Research attacker techniques and analyze historical attacks
-3. **Multi-Layer Tuning** - Whitelist known-good, focus on attack indicators, behavioral analysis, contextual enrichment, risk scoring
-4. **Empirical Validation** - Test against 90 days historical data, verify 100% TP retention
-5. **Documentation** - Complete production-ready docs (README, SPL queries, playbooks, escalation criteria, metrics, ROI)
+## 🎯 Career Focus
+Seeking opportunities in:
+- SOC Tier 1 / Tier 2
+- Security Operations
+- Detection & Response
+- Detection Engineering
+- Blue Team / DFIR-focused roles
 
 ---
 
-## Documentation Structure
-
-Each project includes 8 comprehensive files:
-
-- **README.md** - Problem statement, detection logic, tuning methodology, results
-- **01-baseline-detection.spl** - Original noisy query
-- **02-tuned-detection.spl** - Production-ready detection
-- **03-investigation-playbook.md** - Step-by-step triage procedures
-- **04-escalation-criteria.md** - Decision tree for escalation vs. closure
-- **05-false-positive-analysis.md** - Major FP categories and remediation
-- **06-tuning-rationale.md** - Technical justification for every tuning decision
-- **07-metrics.md** - Performance data, cost-benefit analysis, ROI calculation
-
-**Total:** 32 files across 4 alerts
-
----
-
-## Skills Demonstrated
-
-- **SIEM & Analytics:** Complex Splunk queries, multi-source correlation, statistical analysis, risk scoring
-- **Threat Detection:** MITRE ATT&CK mapping, attack pattern analysis, behavioral analytics
-- **SOC Operations:** Investigation playbooks, escalation criteria, incident response coordination
-- **Business Communication:** ROI calculation, executive reporting, stakeholder management
-
----
-
-## Key Differentiators
-
-**Real Metrics, Not Estimates:**
-- Tested against 160 confirmed attacks over 90 days
-- 100% true positive retention empirically validated
-- Actual cost savings calculated, not theoretical
-
-**Production-Ready Documentation:**
-- Complete investigation playbooks with SPL queries
-- Decision trees for escalation vs. closure
-- Business justification suitable for executive presentation
-
-**Operational Focus:**
-- Not academic exercises - ready for immediate SOC deployment
-- Addresses real pain points (alert fatigue, analyst burnout)
-- Repeatable methodology applicable to any high-volume detection
-
----
-
-## Project Status
-
-**Completed:** 4 of 5 alerts (80%)  
-**Documentation:** 32 files, 100+ pages  
-**Validation:** 90 days historical data, 160 confirmed attacks  
-**Results:** 89.7% alert reduction, $2.89M annual savings, 100% attack detection
-
-*This portfolio showcases production-ready detection engineering for enterprise SOC environments.*
+## 📬 Contact
+📍 Gold Coast, Australia  
+  Open to remote and hybrid cybersecurity roles  
+  Reach me here on Github
