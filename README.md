@@ -65,7 +65,7 @@ A comprehensive portfolio demonstrating production-ready detection improvements 
 Demonstrated ability to transform noisy, high-volume detections into operational, high-confidence alerts suitable for enterprise SOC deployment with empirical validation and business impact metrics.
 
 👉 **Repository:**  
-https://github.com/MarshallSecOps/SOC-Detection-Engineering-Portfolio
+https://github.com/MarshallSecOps/SOC-Detection-Engineering-Improvement
 
 ────────────────────────────────────────────────────────────
 
