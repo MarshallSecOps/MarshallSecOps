@@ -40,7 +40,7 @@ Windows · macOS · Linux (Basic CLI/Bash)
 
 ## 📁 Featured Projects
 
-### 🔹 SOC Detection Engineering Portfolio – Alert Fatigue Reduction
+### 🔹 SOC Detection Engineering & Alert Improvement – Alert Fatigue Reduction
 **Detection Engineering & SOC Optimization Project**
 
 A comprehensive portfolio demonstrating production-ready detection improvements across 4 high-volume SOC alerts. Each project shows systematic tuning methodology that reduces false positives while maintaining 100% attack detection coverage.
