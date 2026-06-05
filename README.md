@@ -143,5 +143,7 @@ Seeking opportunities in:
 
 ## 📬 Contact
 📍 Gold Coast, Australia  
-  Open to remote and hybrid cybersecurity roles  
-  Reach me here on Github
+Open to remote and hybrid cybersecurity roles, also Greater Brisbane Area  
+🔗 [LinkedIn](https://www.linkedin.com/in/marshallcorkery/)  
+Reach me on LinkedIn
+
