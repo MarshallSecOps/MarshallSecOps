@@ -111,6 +111,24 @@ Demonstrated ability to reconstruct complex adversary behavior across multiple h
 👉 **Repository:**  
 https://github.com/MarshallSecOps/apt29-DFIR-Investigation
 
+────────────────────────────────────────────────────────────
+
+### 🔹 Cybersecurity Knowledge Mind Map
+
+**Visual Learning & Reference Resource**
+
+A comprehensive self-built mind map covering 12 cybersecurity domains — structured around how a SOC analyst actually thinks, with deliberate SOC Tie-in callouts throughout connecting theory directly to real analyst workflows.
+
+**Domains Covered:**
+
+- Security Concepts, Threats, Defense Hardening, Security Operations, SOC Workflows & Processes
+- GRC, MITRE ATT&CK & D3FEND, Cloud Security, Vulnerability Management, Threat Intelligence, DFIR
+
+👉 **Repository:**
+https://github.com/MarshallSecOps/cybersecurity-knowledge-map
+
+
+
 ---
 
 ## 🎯 Career Focus
