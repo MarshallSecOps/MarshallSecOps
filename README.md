@@ -1,4 +1,4 @@
-## 👋 Hi, I'm Marshall
+## Hi, I'm Marshall
 **Cybersecurity Analyst** · Security+ · Network+ · Blue Team Level 1  
 Cybersecurity analyst focused on **SOC operations, threat detection, and incident response**. I build hands-on projects that demonstrate real-world security analysis capabilities including **SIEM log analysis, alert triage, threat hunting, endpoint forensics, and detection engineering**.
 
